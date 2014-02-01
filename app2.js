@@ -1,6 +1,8 @@
 
 
 var gith = require('gith').create( 9001 );
+var crypto = require("crypto").createHash("sha1");
+
 
 gith({
   repo: 'loudwinston/scripted-test-deploy'
