@@ -1,0 +1,10 @@
+{
+  "name": "scripted-portal-github-autodeploy",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "ScriptEd <info@ScriptEd.org>",
+  "description": "Github Postcommit hook autodeployment script for ScriptEd portal",
+  "dependencies" : {
+    "express" : "*"
+  }
+}
