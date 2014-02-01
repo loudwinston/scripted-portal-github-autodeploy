@@ -5,6 +5,7 @@
   "author": "ScriptEd <info@ScriptEd.org>",
   "description": "Github Postcommit hook autodeployment script for ScriptEd portal",
   "dependencies" : {
-    "express" : "*"
+    "express" : "*",
+    "gith" : "*"
   }
 }
