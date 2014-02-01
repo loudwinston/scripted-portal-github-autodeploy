@@ -18,7 +18,7 @@ app.use(express.bodyParser());
 app.get("/", function(req, resp) { resp.end("YAY!");});
 app.post('/__githubdeploy', function(req, resp) {
 	
-	var payload = resp.body.payload;
+	var payload = JSON.parse(resp.body.payload);
 	var githubUrl = payload.repository.url + ".git";
 	console.log("Deploying code from github url " + githubUrl);
 
