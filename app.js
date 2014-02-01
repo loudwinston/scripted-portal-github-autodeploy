@@ -15,7 +15,7 @@ var app = express();
 app.set('port', process.env.PORT || 3000);
 app.use(express.bodyParser());
 
-app.get("/", function(req, resp) { resp.end("YAY!");})l
+app.get("/", function(req, resp) { resp.end("YAY!");});
 app.post('/__githubdeploy', function(req, resp) {
 	
 	var payload = resp.body.payload;
