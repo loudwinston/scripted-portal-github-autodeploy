@@ -6,4 +6,5 @@ gith({
   repo: 'loudwinston/scripted-test-deploy'
 }).on( 'all', function( payload ) {
   console.log( 'Post-receive happened!' );
+  console.log(JSON.stringify(payload, null, 4));
 });
